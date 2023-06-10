@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+.section{
+  width: 90vw;
+  height: 90vh;
+  display: grid;
+  place-items: center;
+}
+
+.title h2 {
+  text-transform: uppercase;
+  margin-top: 10rem;
+  
+}
+
+.underline{
+    width: 5rem;
+    height: .25rem;
+    background-color:rgb(115, 115, 236) ;
+    margin: 1rem auto;
+}
+
+.container{
+  width:80%;
+  display: flex;
+}
+
+.btn-container{
+  text-align: center;
+}
+
+
+  .btn-company {
+    background: transparent;
+    width: 100%;
+    padding: .5rem;
+    border: none;
+    font-size: 1.25rem;
+    cursor: pointer;
+    margin: .5rem 0;
+}
+
+.btn-company:hover{
+  color:rgb(92, 92, 230);
+  border-left: 2px solid rgb(92, 92, 230);
+}
+
+.active{
+  background: transparent;
+  width: 100%;
+  padding: .5rem;
+    border: none;
+    font-size: 1.25rem;
+  color:rgb(92, 92, 230);
+  border-left: 2px solid rgb(92, 92, 230);
+}
+
+.content-container h3{
+  font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1;
+    padding: 1rem 0;
+}
+
+.content-container h4{
+  font-size: 1rem;
+  padding: 1rem 0;
+  background-color: rgb(197, 197, 231);
+  display: inline-block;
+  padding: .5rem .5rem;
+  border-radius: .5rem;
+}
+
+.job-date{
+  font-size: 1rem;
+  padding: 1rem 0;
+  letter-spacing: 1;
+}
+
+
+.job-desc{
+  display: flex;
+
+}
+
+.job-desc p{
+  font-size: 1rem;
+  line-height: 2;
+}
+
+.btn{
+  text-transform: uppercase;
+    background-color: rgb(9, 180, 163);
+    padding: 0.8rem 3rem;
+    font-size: .8rem;
+    font-weight: 600;
+    border: none;
+    color: white;
+    letter-spacing: 2px;
+    margin: 2rem 0;
+    border-radius: 0.5rem;
+}
